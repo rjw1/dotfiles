@@ -1,0 +1,20 @@
+[user]
+	name = bob walker
+	email = bob@randomness.org.uk
+[push]
+	default = upstream
+[alias]
+    st = status
+    ci = commit -v
+    co = checkout
+    br = branch
+    idiff = diff --cached
+    lg = log --pretty=oneline --topo-order --graph --abbrev-commit --decorate
+    ru = remote update
+    ; ! is both a subcommand, and from the topdir and not the cwd
+    ss = !git submodule status
+    nm = branch --no-merged
+[color]
+    diff = auto
+    branch = auto
+    status = auto
