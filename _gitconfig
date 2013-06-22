@@ -7,6 +7,7 @@
     st = status
     ci = commit -v
     co = checkout
+    cb = checkout -b 
     br = branch
     idiff = diff --cached
     lg = log --pretty=oneline --topo-order --graph --abbrev-commit --decorate
