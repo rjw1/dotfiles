@@ -15,6 +15,7 @@
     ; ! is both a subcommand, and from the topdir and not the cwd
     ss = !git submodule status
     nm = branch --no-merged
+    pn = push -u origin HEAD
 [color]
     diff = auto
     branch = auto
