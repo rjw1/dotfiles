@@ -20,3 +20,5 @@
     diff = auto
     branch = auto
     status = auto
+[hub]
+        host = github.gds 
