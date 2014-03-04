@@ -1,6 +1,5 @@
 [user]
 	name = bob walker
-	email = bob@randomness.org.uk
 [push]
 	default = upstream
 [alias]
@@ -21,4 +20,6 @@
     branch = auto
     status = auto
 [hub]
-        host = github.gds 
+    host = github.gds 
+[include]
+    path = .git_email
