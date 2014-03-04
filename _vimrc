@@ -15,5 +15,6 @@ set colorcolumn=80
 " will fix that. 
 autocmd FileType markdown,rst,gitcommit set spell
 autocmd FileType puppet set shiftwidth=2
+" highlight trailing whitespaces
 :highlight TrailWhitespace ctermbg=red guibg=red
 :autocmd Syntax * syn match TrailWhitespace /\s\+$\| \+\ze\t/
