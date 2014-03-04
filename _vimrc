@@ -9,7 +9,7 @@ set tabstop=8
 set hlsearch
 set expandtab
 set colorcolumn=80
-autocmd FileType markdown,rst set spell
+autocmd FileType markdown,rst,gitcommit set spell
 autocmd FileType puppet set shiftwidth=2
 :highlight TrailWhitespace ctermbg=red guibg=red
 :autocmd Syntax * syn match TrailWhitespace /\s\+$\| \+\ze\t/
