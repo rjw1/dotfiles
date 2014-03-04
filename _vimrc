@@ -8,6 +8,8 @@ set autoindent
 set tabstop=8
 set hlsearch
 set expandtab
+set colorcolumn=80
+autocmd FileType markdown set spell
 autocmd FileType puppet set shiftwidth=2
 :highlight TrailWhitespace ctermbg=red guibg=red
 :autocmd Syntax * syn match TrailWhitespace /\s\+$\| \+\ze\t/
