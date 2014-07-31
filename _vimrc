@@ -20,3 +20,5 @@ autocmd FileType puppet set shiftwidth=2
 " highlight trailing whitespaces
 :highlight TrailWhitespace ctermbg=red guibg=red
 :autocmd Syntax * syn match TrailWhitespace /\s\+$\| \+\ze\t/
+command Gci execute "!git ci %"
+command Gp execute "!git push"
