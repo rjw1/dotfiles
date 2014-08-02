@@ -1,6 +1,8 @@
 set nocp
 execute pathogen#infect()
 syntax on
+filetype plugin indent on
+
 set background=dark
 " colorscheme darkelf
 " use indents of 2 spaces, and have them copied down lines:
@@ -11,6 +13,8 @@ set tabstop=8
 set hlsearch
 set expandtab
 set colorcolumn=80
+set modeline
+set modelines=5
 " spell check certain files
 " md by default isnt markdown but modula
 " mkdir -p ~/.vim/ftdetect/ ; curl https://raw.github.com/tpope/vim-markdown/master/ftdetect/markdown.vim > ~/.vim/ftdetect/markdown.vim
