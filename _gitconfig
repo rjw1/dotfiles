@@ -15,6 +15,8 @@
     ss = !git submodule status
     nm = branch --no-merged
     pn = push -u origin HEAD
+    smash = reset --hard origin/master
+    autosmash = rebase -i origin/master --autosquash
 [color]
     diff = auto
     branch = auto
