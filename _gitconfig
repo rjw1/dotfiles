@@ -1,7 +1,7 @@
 [user]
-	name = bob walker
+    name = bob walker
 [push]
-	default = upstream
+    default = upstream
 [alias]
     st = status
     ci = commit -v
@@ -23,5 +23,11 @@
     status = auto
 [hub]
     host = github.gds 
+    protocol = https
 [include]
     path = .git_email
+[credential]
+    helper = /opt/boxen/bin/boxen-git-credential
+
+[core]
+excludesfile = /opt/boxen/config/git/gitignore
