@@ -27,3 +27,4 @@ autocmd FileType puppet set shiftwidth=2
 command Gci execute "!git ci %"
 command Gcp execute "!git ci % && git push"
 command Gp execute "!git push"
+let @a='wi~~A~~ddGp'
