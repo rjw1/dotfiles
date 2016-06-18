@@ -28,6 +28,8 @@
     path = .git_email
 [credential]
     helper = /opt/boxen/bin/boxen-git-credential
+[diff]
+  compactionHeuristic = true
 
 [core]
 excludesfile = /opt/boxen/config/git/gitignore
