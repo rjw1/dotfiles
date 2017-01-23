@@ -1,5 +1,7 @@
 [user]
     name = bob walker
+    email = bob.walker@digital.cabinet-office.gov.uk
+    signingkey = 94E63432B71CE3CB
 [push]
     default = upstream
 [alias]
@@ -33,3 +35,6 @@
 
 [core]
 excludesfile = /opt/boxen/config/git/gitignore
+
+[commit]
+   gpgsign = true
