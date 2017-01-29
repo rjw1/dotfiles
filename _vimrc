@@ -19,7 +19,7 @@ set modelines=5
 " md by default isnt markdown but modula
 " mkdir -p ~/.vim/ftdetect/ ; curl https://raw.github.com/tpope/vim-markdown/master/ftdetect/markdown.vim > ~/.vim/ftdetect/markdown.vim
 " will fix that. 
-autocmd FileType markdown,rst,gitcommit set spell
+autocmd FileType markdown,rst,gitcommit,mail,puppet set spell
 autocmd FileType puppet set shiftwidth=2
 " highlight trailing whitespaces
 :highlight TrailWhitespace ctermbg=red guibg=red
