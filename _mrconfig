@@ -43,3 +43,6 @@ checkout = git clone 'https://github.com/godlygeek/tabular' 'tabular'
 
 [git/ashbrook-hosting]
 checkout = git clone 'git@gitlab.com:rjw1/ashbrook-hosting.git' 'ashbrook-hosting'
+
+[.ssh]
+checkout = git clone 'git@gitlab.com:rjw1/ssh-config.git' '.ssh'
