@@ -46,3 +46,6 @@ checkout = git clone 'git@gitlab.com:rjw1/ashbrook-hosting.git' 'ashbrook-hostin
 
 [.ssh]
 checkout = git clone 'git@gitlab.com:rjw1/ssh-config.git' '.ssh'
+
+[.password-store]
+checkout = git clone 'bob@web-01.default.rjw1.uk0.bigv.io:repos/password-store.git' '.password-store'
