@@ -3,3 +3,8 @@ for rc in ~/.bashrc.d/*
 do
   source $rc
 done
+# source bashrc fragments from a local directory for overrides and secrets
+for localrc in ~/.bashrc.local.d/*
+do
+  source $localrc
+done
