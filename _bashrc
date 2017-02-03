@@ -1,3 +1,4 @@
+# source bashrc fragments from my dotfiles for things I should have on all my machines
 for rc in ~/.bashrc.d/*
 do
   source $rc
