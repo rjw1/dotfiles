@@ -22,10 +22,6 @@ cp ~/git/dotfiles-bs/_bashrc ~/.bashrc
 mkdir -p ~/.bashrc.local.d
 
 
-# remove bootstrap dotfiles
-
-rm -rf ~/git/dotfiles-bs
-
 # ask for homebrew github token and put that in place in .bashrc.local.d
 
 # run brew bundle
@@ -44,3 +40,8 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 #setup dotfiles properly
 
 # install rbenv rubies
+
+# remove bootstrap dotfiles
+
+rm -rf ~/git/dotfiles-bs
+
