@@ -33,6 +33,7 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
   curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 # generate ssh keys
+~/git/dotfiles-bs/scripts/ssh-key-generation.sh
 
 # output github key and then wait for confirmation of addign new key 
 # do the same for gitlab, ghe and personal git repo
