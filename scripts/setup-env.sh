@@ -48,6 +48,8 @@ mr
 
 # install rbenv rubies
 
+~/git/dotfiles/install-rubies.sh
+
 # remove bootstrap dotfiles
 
 rm -rf ~/git/dotfiles-bs
