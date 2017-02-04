@@ -15,7 +15,9 @@ mkdir -p ~/git
 # clone dotfiles
 git clone https://github.com/rjw1/dotfiles ~/git/dotfiles-bs
 
-# set up dotfiles
+# bootstrap dotfiles to get further
+
+# remove bootstrap dotfiles
 
 # ask for homebrew github token and put that in place in .bashrc.local.d
 
@@ -31,5 +33,7 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 # do the same for gitlab, ghe and personal git repo
 
 # run mr
+
+#setup dotfiles properly
 
 # install rbenv rubies
