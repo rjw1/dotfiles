@@ -24,7 +24,7 @@ mkdir -p ~/.bashrc.local.d
 
 # ask for homebrew github token and put that in place in .bashrc.local.d
 echo "generate homebrew github token"
-read -s homebrew-token
+read -s homebrewtoken
 echo "HOMEBREW_GITHUB_API_TOKEN=${homebrewtoken}" >> ~/.bashrc.local.d/ZZZ-secrets.sh
 
 
