@@ -24,7 +24,7 @@ mkdir -p ~/.bashrc.local.d
 
 # ask for homebrew github token and put that in place in .bashrc.local.d
 echo "generate homebrew github token"
-read -s homebrewtoken
+read -r -s homebrewtoken
 echo "HOMEBREW_GITHUB_API_TOKEN=${homebrewtoken}" >> ~/.bashrc.local.d/ZZZ-secrets.sh
 
 
@@ -44,7 +44,7 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 
 cat ~/.ssh/id_rsa.4096.github.pub
 echo "let me know when you've told github/ghe/gitlab/other git repos about your new key"
-read waiting
+read -s -r
 
 # run mr
 
