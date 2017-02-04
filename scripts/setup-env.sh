@@ -40,6 +40,8 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 
 # run mr
 
+mr
+
 #setup dotfiles properly
 
 # install rbenv rubies
