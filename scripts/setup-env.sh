@@ -6,9 +6,14 @@
 
 # install git
 
+brew install git
+
 # make ~/git exist
 
+mkdir -p ~/git
+
 # clone dotfiles
+git clone https://github.com/rjw1/dotfiles ~/git/dotfiles-bs
 
 # set up dotfiles
 
