@@ -25,6 +25,8 @@ mkdir -p ~/.bashrc.local.d
 # ask for homebrew github token and put that in place in .bashrc.local.d
 
 # run brew bundle
+brew tap homebrew/bundle
+brew bundle
 
 # setup pathogen
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
