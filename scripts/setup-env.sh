@@ -44,6 +44,8 @@ mr
 
 #setup dotfiles properly
 
+~/git/dotfiles/setup-symlinks.sh
+
 # install rbenv rubies
 
 # remove bootstrap dotfiles
