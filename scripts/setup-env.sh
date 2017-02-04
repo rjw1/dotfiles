@@ -38,6 +38,10 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 # output github key and then wait for confirmation of addign new key 
 # do the same for gitlab, ghe and personal git repo
 
+cat ~/.ssh/id_rsa.4096.github.pub
+echo "let me know when you've told github/ghe/gitlab/other git repos about your new key"
+read waiting
+
 # run mr
 
 mr
