@@ -16,8 +16,15 @@ mkdir -p ~/git
 git clone https://github.com/rjw1/dotfiles ~/git/dotfiles-bs
 
 # bootstrap dotfiles to get further
+cp ~/git/dotfiles-bs/_mrconfig ~/.mrconfig
+cp ~/git/dotfiles-bs/Brewfile ~/Brewfile
+cp ~/git/dotfiles-bs/_bashrc ~/.bashrc
+mkdir -p ~/.bashrc.local.d
+
 
 # remove bootstrap dotfiles
+
+rm -rf ~/git/dotfiles-bs
 
 # ask for homebrew github token and put that in place in .bashrc.local.d
 
