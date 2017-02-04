@@ -1,0 +1,16 @@
+Host ci.dev.publishing.service.gov.uk
+  ProxyCommand none
+Host *.dev.publishing.service.gov.uk
+  ProxyCommand ssh -e none %r@ci.dev.publishing.service.gov.uk -W %h:%p
+Host jumpbox.integration.publishing.service.gov.uk
+  ProxyCommand none
+Host *.integration.publishing.service.gov.uk
+  ProxyCommand ssh -e none %r@jumpbox.integration.publishing.service.gov.uk -W %h:%p
+Host jumpbox.staging.publishing.service.gov.uk
+  ProxyCommand none
+Host *.staging.publishing.service.gov.uk
+  ProxyCommand ssh -e none %r@jumpbox.staging.publishing.service.gov.uk -W %h:%p
+Host jumpbox.publishing.service.gov.uk
+  ProxyCommand none
+Host *.publishing.service.gov.uk
+  ProxyCommand ssh -e none %r@jumpbox.publishing.service.gov.uk -W %h:%p
