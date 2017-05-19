@@ -10,7 +10,7 @@ do
   then
     echo "$key does not exist"
     echo "Generating $key"
-    ssh-keygen -a 1024 -t rsa -b 4096 -f "$KEYPATH"
+    ssh-keygen -o -a 1024 -t rsa -b 4096 -f "$KEYPATH"
   else
     echo "$key does exist"
   fi
