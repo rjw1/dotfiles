@@ -21,7 +21,7 @@ checkout = git clone 'git@github.com:rjw1/devopsdays-web.git' 'devopsdays-web'
 checkout = git clone 'git@github.com:rjw1/dotfiles.git' 'dotfiles'
 
 [git/puppet-syntax]
-checkout = git clone 'git@github.com:gds-operations/puppet-syntax.git' 'puppet-syntax'
+checkout = git clone 'git@github.com:voxpupuli/puppet-syntax.git' 'puppet-syntax'
 
 [.vim/bundle/vim-puppet]
 checkout = git clone 'https://github.com/rodjek/vim-puppet' 'vim-puppet'
