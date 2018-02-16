@@ -5,9 +5,6 @@ checkout = git clone 'git@github.com:rjw1/randomness-puppet' 'randomness-puppet'
 [git/randomness.org.uk]
 checkout = git clone 'git@github.com:rjw1/randomness.org.uk.git' 'randomness.org.uk'
 
-[git/govuk-puppet]
-checkout = git clone 'git@github.com:alphagov/govuk-puppet' 'govuk-puppet'
-
 [git/OpenGuides]
 checkout = git clone 'git@github.com:OpenGuides/OpenGuides.git' 'OpenGuides'
 
@@ -23,17 +20,8 @@ checkout = git clone 'git@github.com:rjw1/devopsdays-web.git' 'devopsdays-web'
 [git/dotfiles]
 checkout = git clone 'git@github.com:rjw1/dotfiles.git' 'dotfiles'
 
-[git/fabric-scripts]
-checkout = git clone 'git@github.com:alphagov/fabric-scripts' 'fabric-scripts'
-
-[git/govuk-provisioning]
-checkout = git clone 'git@github.gds:gds/govuk-provisioning' 'govuk-provisioning'
-
 [git/puppet-syntax]
 checkout = git clone 'git@github.com:gds-operations/puppet-syntax.git' 'puppet-syntax'
-
-[git/deployment]
-checkout = git clone 'git@github.gds:gds/deployment' 'deployment'
 
 [.vim/bundle/vim-puppet]
 checkout = git clone 'https://github.com/rodjek/vim-puppet' 'vim-puppet'
