@@ -48,15 +48,16 @@ read -s -r
 
 # run mr
 
-mr
+
+mr co
 
 #setup dotfiles properly
 
-~/git/dotfiles/setup-symlinks.sh
+~/git/rjw1/dotfiles/setup-symlinks.sh
 
 # install rbenv rubies
 
-~/git/dotfiles/install-rubies.sh
+~/git/rjw1/dotfiles/install-rubies.sh
 
 # remove bootstrap dotfiles
 
