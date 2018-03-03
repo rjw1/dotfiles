@@ -1,26 +1,26 @@
 
-[git/randomness-puppet]
+[git/rjw1/randomness-puppet]
 checkout = git clone 'git@github.com:rjw1/randomness-puppet' 'randomness-puppet'
 
-[git/randomness.org.uk]
+[git/rjw1/randomness.org.uk]
 checkout = git clone 'git@github.com:rjw1/randomness.org.uk.git' 'randomness.org.uk'
 
-[git/OpenGuides]
+[git/rjw1/OpenGuides]
 checkout = git clone 'git@github.com:OpenGuides/OpenGuides.git' 'OpenGuides'
 
-[git/Wiki-Toolkit]
+[git/rjw1/Wiki-Toolkit]
 checkout = git clone 'git@github.com:OpenGuides/Wiki-Toolkit.git' 'Wiki-Toolkit'
 
-[git/capitalbeards.org.uk]
+[git/rjw1/capitalbeards.org.uk]
 checkout = git clone 'git@github.com:rjw1/capitalbeards.org.uk.git' 'capitalbeards.org.uk'
 
-[git/devopsdays-web]
+[git/rjw1/devopsdays-web]
 checkout = git clone 'git@github.com:rjw1/devopsdays-web.git' 'devopsdays-web'
 
-[git/dotfiles]
+[git/rjw1/dotfiles]
 checkout = git clone 'git@github.com:rjw1/dotfiles.git' 'dotfiles'
 
-[git/puppet-syntax]
+[git/rjw1/puppet-syntax]
 checkout = git clone 'git@github.com:voxpupuli/puppet-syntax.git' 'puppet-syntax'
 
 [.vim/bundle/vim-puppet]
@@ -29,7 +29,7 @@ checkout = git clone 'https://github.com/rodjek/vim-puppet' 'vim-puppet'
 [.vim/bundle/tabular]
 checkout = git clone 'https://github.com/godlygeek/tabular' 'tabular'
 
-[git/ashbrook-hosting]
+[git/rjw1/ashbrook-hosting]
 checkout = git clone 'git@gitlab.com:rjw1/ashbrook-hosting.git' 'ashbrook-hosting'
 
 [.ssh]
