@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # script to generate ssh keys if they dont exist
 
-KEYS="ghe github personal govuk-integration govuk-staging govuk-production"
+KEYS="github gitlab personal dxw"
 
 for key in $KEYS
 do
