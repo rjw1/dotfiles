@@ -33,7 +33,14 @@ checkout = git clone 'https://github.com/godlygeek/tabular' 'tabular'
 checkout = git clone 'git@gitlab.com:rjw1/ashbrook-hosting.git' 'ashbrook-hosting'
 
 [.ssh]
-checkout = git clone 'git@gitlab.com:rjw1/ssh-config.git' '.ssh'
+checkout = git clone 'keybase://private/rjw1/ssh' '.ssh'
+
+[git/rjw1/weeknotes]
+checkout = git clone 'keybase://private/rjw1/weeknotes' 'weeknotes'
 
 [.password-store]
 checkout = git clone 'keybase://private/rjw1/passwords' '.password-store'
+
+# dxw
+[git/dxw/opsdocs]
+checkout = git clone 'git@git.govpress.com:ops/docs.git' 'opsdocs'
