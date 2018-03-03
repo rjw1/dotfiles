@@ -15,7 +15,7 @@ do
   then
     echo "$dotfile not a symlink"
     rm -f ~/.${dotfile}
-    ln -s ~/git/dotfiles/_${dotfile} ~/.${dotfile}
+    ln -s ~/git/rjw1/dotfiles/_${dotfile} ~/.${dotfile}
   else
     echo "$dotfile is a symlink"
   fi
@@ -28,7 +28,7 @@ do
   then
     echo "$file not a symlink"
     rm -f ~/${file}
-    ln -s ~/git/dotfiles/${dotfile} ~/${dotfile}
+    ln -s ~/git/rjw1/dotfiles/${dotfile} ~/${dotfile}
   else
     echo "$file is a symlink"
   fi
