@@ -1,7 +1,9 @@
-Include ~/git/dotfiles/_ssh/ashbrook-config
+Include ~/git/rjw1/dotfiles/_ssh/ashbrook-config
 Host *
 User bob
 ServerAliveInterval 60
 UseRoaming no
-Include ~/git/dotfiles/_ssh/govuk-config
-Include ~/git/dotfiles/_ssh/shell-01-config
+Include ~/git/rjw1/dotfiles/_ssh/govuk-config
+Include ~/git/rjw1/dotfiles/_ssh/shell-01-config
+Include ~/git/rjw1/dotfiles/_ssh/sparkly-config
+Include ~/git/rjw1/dotfiles/_ssh/hosting-randomness-config
