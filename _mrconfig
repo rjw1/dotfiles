@@ -44,3 +44,7 @@ checkout = git clone 'keybase://private/rjw1/passwords' '.password-store'
 # dxw
 [git/dxw/opsdocs]
 checkout = git clone 'git@git.govpress.com:ops/docs.git' 'opsdocs'
+
+[git/dxw/notes]
+checkout = git clone 'keybase://private/rjw1/dxw-notes' 'notes'
+
