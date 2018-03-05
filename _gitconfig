@@ -2,6 +2,8 @@
     name = bob walker
     email = bob@randomness.org.uk
     signingkey = 94E63432B71CE3CB
+[includeIf "gitdir:~/git/dxw/"]
+    path = .gitconfig-dxw
 [push]
     default = upstream
 [alias]
