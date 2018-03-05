@@ -1,0 +1,2 @@
+Host *.hosting.randomness.org.uk
+ProxyCommand ssh -e none %r@shell-01.hosting.randomness.org.uk -W %h:%p
