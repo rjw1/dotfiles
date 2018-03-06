@@ -38,6 +38,9 @@ checkout = git clone 'keybase://private/rjw1/ssh' '.ssh'
 [git/rjw1/weeknotes]
 checkout = git clone 'keybase://private/rjw1/weeknotes' 'weeknotes'
 
+[git/rjw1/talks]
+checkout = git clone 'git@github.com:rjw1/talks' 'talks'
+
 [.password-store]
 checkout = git clone 'keybase://private/rjw1/passwords' '.password-store'
 
