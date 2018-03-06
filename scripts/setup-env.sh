@@ -25,7 +25,7 @@ mkdir -p ~/.bashrc.local.d
 # ask for homebrew github token and put that in place in .bashrc.local.d
 echo "generate homebrew github token"
 read -r -s homebrewtoken
-echo "HOMEBREW_GITHUB_API_TOKEN=${homebrewtoken}" >> ~/.bashrc.local.d/ZZZ-secrets.sh
+echo "export HOMEBREW_GITHUB_API_TOKEN=${homebrewtoken}" >> ~/.bashrc.local.d/ZZZ-secretsi-homebrew.sh
 
 
 # run brew bundle
