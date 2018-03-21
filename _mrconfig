@@ -51,3 +51,11 @@ checkout = git clone 'git@git.govpress.com:ops/docs.git' 'opsdocs'
 [git/dxw/notes]
 checkout = git clone 'keybase://private/rjw1/dxw-notes' 'notes'
 
+[git/dxw/playbook]
+checkout = git clone 'git@github.com:dxw/playbook.git' 'playbook'
+
+[git/dxw/teacher-vacancy-service]
+checkout = git clone 'git@github.com:dxw/teacher-vacancy-service' 'teacher-vacancy-service'
+
+[git/dxw/dalmatian]
+checkout = git clone 'git@github.com:dxw/dalmatian' 'dalmatian'
