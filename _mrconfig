@@ -29,6 +29,9 @@ checkout = git clone 'https://github.com/rodjek/vim-puppet' 'vim-puppet'
 [.vim/bundle/tabular]
 checkout = git clone 'https://github.com/godlygeek/tabular' 'tabular'
 
+[.vim/bundle/vim-bracketed-paste]
+checkout = git clone 'https://github.com/ConradIrwin/vim-bracketed-paste' 'vim-bracketed-paste'
+
 [git/rjw1/ashbrook-hosting]
 checkout = git clone 'git@gitlab.com:rjw1/ashbrook-hosting.git' 'ashbrook-hosting'
 
