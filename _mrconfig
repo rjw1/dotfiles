@@ -62,3 +62,19 @@ checkout = git clone 'git@github.com:dxw/teacher-vacancy-service' 'teacher-vacan
 
 [git/dxw/dalmatian]
 checkout = git clone 'git@github.com:dxw/dalmatian' 'dalmatian'
+
+[git/dxw/dns]
+checkout = git clone 'git@git.govpress.com:ops/BytemarkDNS.git' 'dns'
+
+[git/dxw/scripts]
+checkout = git clone 'git@git.govpress.com:ops/scripts.git' 'scripts'
+
+[git/dxw/foxhound]
+checkout = git clone 'git@github.com:dxw/foxhound.git' 'foxhound'
+
+[git/dxw/seal]
+checkout = git clone 'git@github.com:dxw/seal.git' 'seal'
+
+[git/dxw/whippet]
+checkout = git clone --recurse-submodules https://github.com/dxw/whippet.git whippet
+
