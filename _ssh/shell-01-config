@@ -1,2 +1,4 @@
 Host shell-01.hosting.randomness.org.uk
 ProxyCommand none
+Host shell-02.hosting.randomness.org.uk
+ProxyCommand none
