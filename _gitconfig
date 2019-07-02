@@ -24,6 +24,8 @@
     govpress-merge = !git checkout -B master origin/master && git pull --ff-only && git merge --no-ff --no-edit origin/develop
     praise = blame
     whose-line-is-it-anyway = blame
+    merge-request = mr create -d
+    pr = pull-request
 [color]
     diff = auto
     branch = auto
