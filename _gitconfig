@@ -41,7 +41,7 @@
    compactionHeuristic = true
 
 [core]
-excludesfile = /opt/boxen/config/git/gitignore
+   excludesFile = /Users/bob/.gitignore
 
 [commit]
    gpgsign = true
