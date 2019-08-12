@@ -30,9 +30,6 @@
     diff = auto
     branch = auto
     status = auto
-[hub]
-    host = github.gds 
-    protocol = https
 [include]
     path = .git_email
 [credential]
