@@ -1,0 +1,13 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: ShellCheck-Linter-Action
+      uses: zbeekman/ShellCheck-Linter-Action@v1.0.1
