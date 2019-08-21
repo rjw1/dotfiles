@@ -22,6 +22,9 @@ do
 done
 
 # Make files symlinks exist
+# ingore shellcheck because I'm optimizing prematurely here.
+# can be removed if more than one file
+# shellcheck disable=SC2043
 for file in Brewfile
 do
   if [ ! -h ~/${file} ]
