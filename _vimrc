@@ -28,4 +28,4 @@ command Gci execute "!git ci %"
 command Gcp execute "!git ci % && git push"
 command Gp execute "!git push"
 let @a='^wi~~A~~ddGp'
-let g:terraform_fmt_on_save=1
+"let g:terraform_fmt_on_save=1
