@@ -1,0 +1,19 @@
+{
+  "segments": [
+    "virtual_env",
+    "rbenv",
+    "username",
+    "hostname",
+    "ssh",
+    "cwd",
+    "git",
+    "jobs",
+    "root"
+  ],
+  "mode": "flat",
+  "cwd": {
+    "mode": "plain",
+    "max_depth": 4,
+    "max_dir_size": 8
+  }
+}
