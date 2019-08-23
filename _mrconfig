@@ -35,6 +35,12 @@ checkout = git clone 'https://github.com/ConradIrwin/vim-bracketed-paste' 'vim-b
 [.vim/bundle/vim-terraform]
 checkout = git clone 'https://github.com/hashivim/vim-terraform.git' 'vim-terraform'
 
+[.vim/bundle/vim-airline]
+checkout = git clone 'https://github.com/vim-airline/vim-airline' 'vim-airline'
+
+[.vim/bundle/vim-fugitive]
+checkout = git clone 'https://github.com/tpope/vim-fugitive.git' 'vim-fugitive'
+
 [git/rjw1/ashbrook-hosting]
 checkout = git clone 'git@gitlab.com:rjw1/ashbrook-hosting.git' 'ashbrook-hosting'
 
