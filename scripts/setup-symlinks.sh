@@ -3,13 +3,13 @@
 
 
 # Make sure dirs exist
-mkdir -p ~/.bundle ~/.bundles
+mkdir -p ~/.bundle ~/.bundles ~/.config/powerline-shell
 
 # Make sure .bashrc.local.d exists
 mkdir -p ~/.bashrc.local.d
 
 # Make dotfile symlinks exist
-for dotfile in mrconfig gemrc ssh/config ackrc bashrc.d bundle/config fabricrc gitconfig vimrc
+for dotfile in mrconfig gemrc ssh/config ackrc bashrc.d bundle/config fabricrc gitconfig vimrc config/powerline-shell/config.json
 do
   if [ ! -h ~/.${dotfile} ]
   then
