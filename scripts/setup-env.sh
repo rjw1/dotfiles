@@ -32,6 +32,11 @@ echo "export HOMEBREW_GITHUB_API_TOKEN=${homebrewtoken}" >> ~/.bashrc.local.d/ZZ
 brew tap homebrew/bundle
 brew bundle
 
+# install python things
+
+. ~/git/dotfiles-bs/_bashrc.d/12-python.sh
+pip3 install -r ~/git/dotfiles-bs/requirements.txt
+
 # setup pathogen
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
   curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
