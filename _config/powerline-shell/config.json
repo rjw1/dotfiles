@@ -9,6 +9,10 @@
     "cwd",
     "git",
     "jobs",
+    {
+      "type": "stdout",
+      "command": ["echo", "☃︎"]
+    },
     "root"
   ],
   "mode": "flat",
