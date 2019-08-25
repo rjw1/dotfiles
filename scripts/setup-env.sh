@@ -34,7 +34,6 @@ brew bundle
 
 # install python things
 
-. ~/git/dotfiles-bs/_bashrc.d/12-python.sh
 pip3 install -r ~/git/dotfiles-bs/requirements.txt
 
 # setup pathogen
