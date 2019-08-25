@@ -1,7 +1,7 @@
 {
   "segments": [
     "virtual_env",
-    "~/git/rjw1/dotfiles/powerline-shell-segments/rbenv.py",
+    "~/git/rjw1/dotfiles/powerline-shell/segments/rbenv.py",
     "username",
     "hostname",
     "ssh",
