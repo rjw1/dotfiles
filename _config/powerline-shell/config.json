@@ -11,6 +11,7 @@
     "root"
   ],
   "mode": "flat",
+  "theme": "~/git/rjw1/dotfiles/powerline-shell/themes/bob-theme.py",
   "cwd": {
     "mode": "plain",
     "max_depth": 4,
