@@ -13,6 +13,7 @@
       "type": "stdout",
       "command": ["echo", "☃︎"]
     },
+    "newline",
     "root"
   ],
   "mode": "flat",
