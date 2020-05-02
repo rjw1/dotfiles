@@ -1,4 +1,5 @@
 alias cpass="pass -c"
 alias gpass="pass generate -c"
-complete -o filenames -F _pass cpass gpass
+alias totp="pass otp -c"
+complete -o filenames -F _pass cpass gpass totp
 export PASSWORD_STORE_GENERATED_LENGTH='16'
