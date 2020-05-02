@@ -26,7 +26,7 @@
     whose-line-is-it-anyway = blame
     merge-request = mr create -d
     gpr = mr create origin develop
-    pr = pull-request
+    prg = pull-request
 [color]
     diff = auto
     branch = auto
