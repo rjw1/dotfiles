@@ -44,3 +44,5 @@
 [commit]
    gpgsign = true
    verbose = true
+[pull]
+	rebase = true
