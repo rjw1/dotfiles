@@ -20,6 +20,7 @@ set modelines=5
 " mkdir -p ~/.vim/ftdetect/ ; curl https://raw.github.com/tpope/vim-markdown/master/ftdetect/markdown.vim > ~/.vim/ftdetect/markdown.vim
 " will fix that. 
 autocmd FileType markdown,rst,gitcommit,mail,puppet,terraform set spell spelllang=en_gb
+autocmd FileType markdown,rst,gitcommit,mail set tw=79
 autocmd FileType puppet set shiftwidth=2
 " highlight trailing whitespaces
 :highlight TrailWhitespace ctermbg=red guibg=red
