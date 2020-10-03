@@ -1,0 +1,3 @@
+Host github.com
+AddKeysToAgent 36000
+IdentityFile ~/.ssh/id_ed25519.github
