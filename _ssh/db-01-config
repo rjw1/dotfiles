@@ -1,2 +1,2 @@
 Host db-01.default.rjw1.uk0.bigv.io
-ProxyCommand ssh -e none bob@shell-01.hosting.randomness.org.uk -W %h:%p
+#ProxyCommand ssh -e none bob@shell-01.hosting.randomness.org.uk -W %h:%p
