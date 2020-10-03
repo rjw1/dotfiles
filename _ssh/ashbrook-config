@@ -1,3 +1,6 @@
 Host ashbrook.default.rjw1.uk0.bigv.io
 User admin
 #ProxyCommand ssh -e none bob@shell-01.hosting.randomness.org.uk -W %h:%p
+AddKeysToAgent 36000
+IdentityFile ~/.ssh/id_ed25519.personal
+IdentitiesOnly yes

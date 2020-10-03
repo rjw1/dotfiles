@@ -1,4 +1,8 @@
 Host shell-01.hosting.randomness.org.uk
 ProxyCommand none
+AddKeysToAgent 36000
+IdentityFile ~/.ssh/id_ed25519.personal
 Host shell-02.hosting.randomness.org.uk
 ProxyCommand none
+AddKeysToAgent 36000
+IdentityFile ~/.ssh/id_ed25519.personal
