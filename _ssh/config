@@ -2,6 +2,7 @@ Include ~/git/rjw1/dotfiles/_ssh/ashbrook-config
 Host *
 User bob
 ServerAliveInterval 60
+IdentitiesOnly yes
 Include ~/git/rjw1/dotfiles/_ssh/db-01-config
 Include ~/git/rjw1/dotfiles/_ssh/shell-01-config
 Include ~/git/rjw1/dotfiles/_ssh/sparkly-config
