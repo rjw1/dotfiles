@@ -9,7 +9,3 @@ Include ~/git/rjw1/dotfiles/_ssh/sparkly-config
 Include ~/git/rjw1/dotfiles/_ssh/github-config
 Include ~/git/rjw1/dotfiles/_ssh/hosting-randomness-config
 Include ~/git/rjw1/dotfiles/_ssh/dxw/dxw-config
-Include ~/git/rjw1/dotfiles/_ssh/dxw/mytvh-config
-Include ~/git/rjw1/dotfiles/_ssh/dxw/ccs-config
-Include ~/git/rjw1/dotfiles/_ssh/dxw/govpress-config
-
