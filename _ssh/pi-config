@@ -1,0 +1,4 @@
+Host pi-01
+Hostname 192.168.12.138
+AddKeysToAgent 36000
+IdentityFile ~/.ssh/id_ed25519.personal

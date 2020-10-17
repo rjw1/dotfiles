@@ -8,4 +8,5 @@ Include ~/git/rjw1/dotfiles/_ssh/shell-01-config
 Include ~/git/rjw1/dotfiles/_ssh/sparkly-config
 Include ~/git/rjw1/dotfiles/_ssh/github-config
 Include ~/git/rjw1/dotfiles/_ssh/hosting-randomness-config
+Include ~/git/rjw1/dotfiles/_ssh/pi-config
 Include ~/git/rjw1/dotfiles/_ssh/dxw/dxw-config
