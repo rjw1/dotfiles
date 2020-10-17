@@ -379,7 +379,8 @@ incoming-folders=RealPeople {mail.randomness.org.uk/ssl/novalidate-cert/user=bob
 	dd2018 {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}devopsdayslondon2018,
 	dd2017 {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}devopsdayslondon2017,
 	patreon {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}patreon,
-	tito {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}tito
+	tito {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}tito,
+	devopsdayslondon {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}devopsdayslondon
 
 # List of directories where saved-message folders may be. First one is
 # the default for Saves. Example: Main {host1}mail/[], Desktop mail\[]
@@ -402,10 +403,10 @@ address-book=
 global-address-book=
 
 # Set by Pine; controls beginning-of-month sent-mail pruning.
-last-time-prune-questioned=118.12
+last-time-prune-questioned=120.10
 
 # Set by Pine; controls display of "new version" message.
-last-version-used=6.11
+last-version-used=6.21
 
 # This names the path to an alternative program, and any necessary arguments,
 # to be used in posting mail messages.  Example:
@@ -520,7 +521,8 @@ patterns-roles=
 patterns-filters2=LIT:pattern="/NICK=twitter/TO=bob@randomness.org.uk/FROM=@postmaster.twitter.com/FLDTYPE=SPEC/FOLDER=INBOX" action="/FILTER=1/FOLDER={nimbus.geekcloud.com\/ssl\/novalidate-cert\/user=bob}twitter/NOKILL=1"
 
 # Patterns and their actions are stored here.
-patterns-scores2=LIT:pattern="/NICK=Score Rule/TO=london.pm@london.pm.org/FROM=dwilson@unixdaemon.net/SENDER=london.pm-bounces@london.pm.org/SUBJ=Combination of skills - was [JOB] Perl & VB person\x2C central London/FLDTYPE=EMAIL/FOLDER=london.pm" action="/ISSCORE=1"
+patterns-scores2=LIT:pattern="/NICK=Score Rule/TO=london.pm@london.pm.org/FROM=dwilson@unixdaemon.net/SENDER=london.pm-bounces@london.pm.org/SUBJ=Combination of skills - was [JOB] Perl & VB person\x2C central London/FLDTYPE=EMAIL/FOLDER=london.pm" action="/ISSCORE=1",
+	LIT:pattern="/NICK=Score Rule/TO=bob@randomness.org.uk/FROM=corey@lastweekinaws.com/SUBJ=ISSUE #103: THE $72 LYFT RIDE/FLDTYPE=EMAIL/FOLDER=weekly" action="/ISSCORE=1"
 
 # Patterns and their actions are stored here.
 patterns-indexcolors=
@@ -728,3 +730,11 @@ folder-list-text-background-color=
 
 # Colors in which tokens will be displayed in the index screen
 index-token-colors=
+
+# UNIX ONLY (except MAC OSX): When an attachment is opened, this variable controls the number
+#of seconds to wait between checks if the user has ended viewing the attachment.
+#minimun value: 60 seconds, maximum value: 600 seconds (10 minutes). Default: 60 seconds
+mailcap-check-interval=
+
+# List of directories that are preferred locations to save or export attachments.
+default-directories=
