@@ -27,6 +27,8 @@
     merge-request = mr create -d
     gpr = mr create origin develop
     prg = pull-request
+    recommit = commit --amend --no-edit
+
 [color]
     diff = auto
     branch = auto
