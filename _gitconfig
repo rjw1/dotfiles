@@ -28,6 +28,7 @@
     gpr = mr create origin develop
     prg = pull-request
     recommit = commit --amend --no-edit
+    save  = !git add . && git commit --no-verify -m \"WIP: auto save at $(date '+%Y%m%d %H:%M:%S')\"
 
 [color]
     diff = auto
