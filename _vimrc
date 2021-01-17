@@ -34,3 +34,4 @@ let g:airline_powerline_fonts = 1
 set directory=$HOME/.vim/swp//
 iabbrev adn and
 iabbrev teh the
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
