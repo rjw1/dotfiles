@@ -32,3 +32,5 @@ let @a='^wi~~A~~ddGp'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 set directory=$HOME/.vim/swp//
+iabbrev adn and
+iabbrev teh the
