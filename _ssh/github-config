@@ -1,3 +1,6 @@
 Host github.com
 AddKeysToAgent 36000
 IdentityFile ~/.ssh/id_ed25519.github
+Host gitlab.com
+AddKeysToAgent 36000
+IdentityFile ~/.ssh/id_ed25519.gitlab
