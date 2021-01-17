@@ -49,8 +49,6 @@
 [commit]
    gpgsign = true
    verbose = true
-[pull]
-	rebase = true
 [init]
 	defaultBranch = main
 [credential]
@@ -59,3 +57,5 @@
 	useHttpPath = true
 [fetch]
 	prune = true
+[pull]
+	ff = only
