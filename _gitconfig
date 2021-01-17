@@ -33,6 +33,7 @@
     default-origin = !git remote show origin | awk '/HEAD branch/ {print $NF}'
     default-new-branch = "!fn() { git checkout -b $1 $(git default-origin); }; fn" 
     new = "!fn() { git checkout $(git default-origin); git pull; git default-new-branch $1; }; fn"
+	delete-merged = !git branch --merged $(git default-origin) | egrep -v \"(^\\*|^  $(git default-origin)$)\" | xargs git branch --delete
 
 [color]
     diff = auto
