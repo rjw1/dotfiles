@@ -19,8 +19,8 @@
     ss = !git submodule status
     nm = branch --no-merged
     pn = push -u origin HEAD
-    smash = reset --hard origin/master
-    autosmash = rebase -i origin/master --autosquash
+    smash = !git reset --hard origin/$(git default-origin)
+    autosmash = !git rebase -i origin/$(git default-origin) --autosquash
     govpress-merge = !git checkout -B master origin/master && git pull --ff-only && git merge --no-ff --no-edit origin/develop
     praise = blame
     whose-line-is-it-anyway = blame
