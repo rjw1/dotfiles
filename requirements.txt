@@ -28,6 +28,6 @@ total-ordering==0.1.0
 truffleHog==2.0.99
 truffleHogRegexes==0.0.7
 tubeup==0.0.20
-urllib3==1.25.8
+urllib3==1.26.5
 yamllint==1.17.0
 youtube-dlc==2020.10.26
