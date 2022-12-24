@@ -1,4 +1,4 @@
 Host sparkly.local
-AddKeysToAgent 36000
+#AddKeysToAgent 36000
 IdentityFile ~/.ssh/id_ed25519.personal
 
