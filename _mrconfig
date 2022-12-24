@@ -47,6 +47,9 @@ checkout = git clone 'https://tpope.io/vim/surround.git' 'surround'
 [.vim/pack/tpope/start/repeat]
 checkout = git clone 'https://tpope.io/vim/repeat.git' 'repeat'
 
+[.vim/pack/coc/start/coc.nvim]
+checkout = git clone --branch release 'https://github.com/neoclide/coc.nvim.git' --depth=1 'coc.nvim'
+
 [git/rjw1/ashbrook-hosting]
 checkout = git clone 'git@gitlab.com:rjw1/ashbrook-hosting.git' 'ashbrook-hosting'
 
