@@ -21,7 +21,8 @@
     pn = push -u origin HEAD
     smash = !git reset --hard origin/$(git default-origin)
     autosmash = !git rebase -i origin/$(git default-origin) --autosquash
-    govpress-merge = !git checkout -B master origin/master && git pull --ff-only && git merge --no-ff --no-edit origin/develop
+    govpress-master-merge = !git checkout -B master origin/master && git pull --ff-only && git merge --no-ff --no-edit origin/develop
+    govpress-main-merge = !git checkout -B main origin/main && git pull --ff-only && git merge --no-ff --no-edit origin/develop
     praise = blame
     whose-line-is-it-anyway = blame
     merge-request = mr create -d
