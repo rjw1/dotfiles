@@ -36,6 +36,7 @@ set directory=$HOME/.vim/swp//
 iabbrev adn and
 iabbrev teh the
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
+" inoremap <silent><expr> <cr> coc#pum#visible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
 map <leader>D :put =strftime('## %Y-%m-%d %H:%M')<CR><CR>
 let g:copilot_filetypes = {
     \ 'gitcommit': v:true,
