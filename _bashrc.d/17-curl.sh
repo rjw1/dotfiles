@@ -1,6 +1,6 @@
-export PATH="/usr/local/opt/curl/bin:$PATH"
+export PATH="/opt/homebrew/opt/curl/bin:$PATH"
 
-export LDFLAGS="-L/usr/local/opt/curl/lib"
-export CPPFLAGS="-I/usr/local/opt/curl/include"
+export LDFLAGS="-L/opt/homebrew/opt/curl/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/curl/include"
 
-export PKG_CONFIG_PATH="/usr/local/opt/curl/lib/pkgconfig"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/curl/lib/pkgconfig"
