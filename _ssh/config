@@ -4,6 +4,7 @@ User bob
 ServerAliveInterval 60
 IdentitiesOnly yes
 Include ~/git/rjw1/dotfiles/_ssh/bytemark-config
+Include ~/git/rjw1/dotfiles/_ssh/mythic-beasts-config
 Include ~/git/rjw1/dotfiles/_ssh/shell-01-config
 Include ~/git/rjw1/dotfiles/_ssh/sparkly-config
 Include ~/git/rjw1/dotfiles/_ssh/gitserver-config

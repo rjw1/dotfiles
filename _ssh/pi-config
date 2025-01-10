@@ -1,4 +1,16 @@
+Match host pi-01 exec "~/bin/config-personal-key.sh"
 Host pi-01
 Hostname 192.168.12.138
+ServerAliveInterval 10
+#AddKeysToAgent 36000
+IdentityFile ~/.ssh/id_ed25519.personal
+RemoteForward /home/bob/.opener.sock /Users/bob/.opener.sock
+Match host debian exec "~/bin/config-personal-key.sh"
+Match localnetwork 192.168.12.124/32 exec "~/bin/config-personal-key.sh"
+Match localnetwork 192.168.12.124/32 
+IdentityFile ~/.ssh/id_ed25519.personal
+Host debian
+Hostname 192.168.12.124
+ServerAliveInterval 10
 #AddKeysToAgent 36000
 IdentityFile ~/.ssh/id_ed25519.personal

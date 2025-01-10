@@ -1,4 +1,9 @@
+Match host sparkly.local exec "~/bin/config-personal-key.sh"
 Host sparkly.local
+#AddKeysToAgent 36000
+IdentityFile ~/.ssh/id_ed25519.personal
+Match host snazzy.local exec "~/bin/config-personal-key.sh"
+Host snazzy.local
 #AddKeysToAgent 36000
 IdentityFile ~/.ssh/id_ed25519.personal
 

@@ -1,6 +1,12 @@
+Match host *github.com exec "~/bin/config-github-key.sh"
 Host github.com
 #AddKeysToAgent 36000
 IdentityFile ~/.ssh/id_ed25519.github
+Match host *gitlab.com exec "~/bin/config-gitlab-key.sh"
 Host gitlab.com
 #AddKeysToAgent 36000
 IdentityFile ~/.ssh/id_ed25519.gitlab
+Match host 192.168.12.145 exec "~/bin/config-personal-key.sh"
+Host 192.168.12.145
+#AddKeysToAgent 36000
+IdentityFile ~/.ssh/id_ed25519.personal
