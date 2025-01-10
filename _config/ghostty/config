@@ -1,0 +1,8 @@
+font-size = 20
+font-family = Monaco
+shell-integration = none
+copy-on-select = true
+focus-follows-mouse = true
+fullscreen = true
+shell-integration-features = no-sudo
+theme = AdventureTime
