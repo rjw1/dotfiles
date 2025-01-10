@@ -1,4 +1,5 @@
 set nocp
+
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
@@ -48,3 +49,46 @@ let g:copilot_filetypes = {
      \ | if f > 100000 || f == -2
      \ | let b:copilot_enabled = v:false
      \ | endif
+set rtp+=/opt/homebrew/opt/fzf
+
+
+command GitLink :echo gitlink#GitLink()
+function! CopyGitLink(...) range
+  redir @+
+  silent echo gitlink#GitLink(get(a:, 1, 0))
+  redir END
+endfunction
+nmap <leader>gl :call CopyGitLink()<CR>
+vmap <leader>gl :call CopyGitLink(1)<CR>
+
+
+function! RunCompileOnSave()
+ " You can replace /path/to/directory with your directory
+    if stridx(expand('%:p:h'), '/Users/bob/git/dxw/dalmatian-config') == 0
+        " Replace echo "Command executed!" with your command
+        !echo "Compiling..."
+        !/Users/bob/git/dxw/dalmatian-config/bin/compile
+        !echo "Command executed!"
+    endif
+endfunction
+function! RunTerraformDocsOnSave()
+ " You can replace /path/to/directory with your directory
+    if stridx(expand('%:p:h'), '/Users/bob/git/dxw/terraform-dxw-dalmatian-infrastructure') == 0
+        " Replace echo "Command executed!" with your command
+        !echo "Generating Terraform Docs..."
+        !terraform-docs .
+        !echo "docs generated"
+    endif
+endfunction
+
+autocmd BufWritePost * call RunCompileOnSave()
+autocmd BufWritePost * call RunTerraformDocsOnSave()
+set undodir=~/.vim/undodir
+set undofile
+set undolevels=1000
+set undoreload=10000
+
+
+let g:rustfmt_autosave = 1
+source ~/.vim/autoexec.vim
+
