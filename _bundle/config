@@ -1,2 +1,3 @@
 ---
 BUNDLE_PATH: "~/.bundles/"
+BUNDLE_AUTO_INSTALL: "true"
