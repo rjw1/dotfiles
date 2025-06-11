@@ -6,6 +6,7 @@
     path = .gitconfig-dxw
 [push]
     default = upstream
+	autoSetupRemote = true
 [alias]
     st = status
     cv = commit -v
