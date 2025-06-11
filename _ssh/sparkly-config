@@ -7,3 +7,12 @@ Host snazzy.local
 #AddKeysToAgent 36000
 IdentityFile ~/.ssh/id_ed25519.personal
 
+Match host  100.106.158.64 exec "~/bin/config-personal-key.sh"
+Host 100.106.158.64
+#AddKeysToAgent 36000
+IdentityFile ~/.ssh/id_ed25519.personal
+Match host  ts-snazzy exec "~/bin/config-personal-key.sh"
+Host ts-snazzy
+HostName 100.106.158.64
+#AddKeysToAgent 36000
+IdentityFile ~/.ssh/id_ed25519.personal
