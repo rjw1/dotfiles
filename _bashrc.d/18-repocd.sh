@@ -1,6 +1,6 @@
-repo()  { cd ~/git/$1/$2; }
 _repo_complete()
 {
+repo() { z ~/git/$1/$2; }
   local cur prev
 
   COMPREPLY=()
