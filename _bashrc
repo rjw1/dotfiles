@@ -1,10 +1,11 @@
 # source bashrc fragments from my dotfiles for things I should have on all my machines
-for rc in ~/.bashrc.d/*
-do
+#
+for rc in ~/.bashrc.d/*; do
   source $rc
 done
 # source bashrc fragments from a local directory for overrides and secrets
-for localrc in ~/.bashrc.local.d/*
-do
+for localrc in ~/.bashrc.local.d/*; do
   source $localrc
 done
+
+
