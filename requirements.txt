@@ -8,7 +8,7 @@ contextlib2==0.5.5
 docopt==0.6.2
 ghmarkdown==2.0.2
 gitdb2==2.0.5
-GitPython==3.1.41
+GitPython==3.1.44
 gpg==1.13.1
 idna==2.8
 internetarchive==1.8.5
