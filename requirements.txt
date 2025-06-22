@@ -1,5 +1,5 @@
 args==0.1.0
-attrs==19.1.0
+attrs==19.3.0
 backports.csv==1.0.7
 certifi==2023.7.22
 chardet==3.0.4
