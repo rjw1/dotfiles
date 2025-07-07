@@ -60,7 +60,7 @@ form-letter-folder=
 
 # Contains the actual signature contents as opposed to the signature filename.
 # If defined, this overrides the signature-file. Default is undefined.
-literal-signature=
+literal-signature=bob walker - @rjw1\nthey/them or he/him\nhttp://randomness.org.uk\na larger than average carbon based humanoid\n
 
 # Over-rides default path for signature file. Default is ~/.signature
 signature-file=
@@ -410,7 +410,8 @@ news-collections=
 # List of file or path names for personal addressbook(s).
 # Default: ~/.addressbook (Unix) or \PINE\ADDRBOOK (PC)
 # Syntax: optnl-label path-name
-address-book=
+address-book=.addressbook,
+	"Remote Address Book" {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}remote_addrbook
 
 # List of file or path names for global/shared addressbook(s).
 # Default: none
@@ -421,7 +422,7 @@ global-address-book=
 last-time-prune-questioned=125.7
 
 # Set by Pine; controls display of "new version" message.
-last-version-used=6.21
+last-version-used=6.26
 
 # This names the path to an alternative program, and any necessary arguments,
 # to be used in posting mail messages.  Example:
@@ -510,7 +511,7 @@ disable-these-authenticators=GSSAPI,
 	PLAIN
 
 # Set by Pine; contains data for caching remote address books.
-remote-abook-metafile=
+remote-abook-metafile=.ab98668
 
 # How many extra copies of remote address book should be kept. Default: 3
 remote-abook-history=
@@ -753,3 +754,51 @@ mailcap-check-interval=
 
 # List of directories that are preferred locations to save or export attachments.
 default-directories=
+
+# Your login/e-mail user name
+user-id=bob
+
+# Sets the path for the system ssl certificates issued by a trusted
+# certificate authority. Note that this could be a list of paths, if the same
+# pinerc is used in different systems. Alpine always chooses the first one that
+# it finds. Value must be an absolute path.
+system-certs-path=
+
+# Sets the path for the system ssl file container of certificates issued by a
+# certificate authority. Note that this could be a list of container files,
+# if the same pinerc is used in different systems. Alpine always chooses the,
+# first one that it finds. Value must be an absolute path.
+system-certs-file=
+
+# Sets the path for a file that contains certificates that a user trusts.
+#Note that this could be a list of container files,
+# if the same pinerc is used in different systems. Alpine always chooses the,
+# first one that it finds. Value must be an absolute path.
+user-certs-path=
+
+# Sets the path for a file that contains certificates that a user trusts.
+#Note that this could be a list of container files,
+# if the same pinerc is used in different systems. Alpine always chooses the,
+# first one that it finds. Value must be an absolute path.
+user-certs-file=
+
+# Colon separated list of ciphers that should be negotiated with the remote
+# ssl server upon connection.
+ssl-ciphers=
+
+# If this much time has elapsed at the time of a tcp read or write timeout,
+# Alpine will close the connection automatically without user intervention.
+# Setting this value to zero (the default) disables this. Setting this variable
+# to a smaller value than tcp-query-timeout will close the connection
+# automatically, and you will never be asked if you want to wait.
+close-connection-timeout=
+
+# A range in the form min,max that sets the minimum amd maximum versions of the
+# SSL protocol that Alpine will use when connecting to a secure server.
+encryption-protocol-range=
+
+# Your client-id and client-secret information to authenticate using XOAUTH2
+xoauth2-info=
+
+# Your login/e-mail user name
+user-id=bob
