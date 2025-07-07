@@ -45,7 +45,7 @@ default-fcc=
 # Over-rides default path for saved-msg folder, e.g. =saved-messages (using 1st
 # folder collection dir) or ={host2}saved-mail or ="" (to suppress saving).
 # Default: saved-messages (Unix) or SAVEMAIL.MTX (PC) in default collection.
-default-saved-msg-folder=
+default-saved-msg-folder=spamtrain
 
 # Over-rides default path for postponed messages folder, e.g. =pm (which uses
 # first folder collection dir) or ={host4}pm (using home dir on host4).
@@ -115,7 +115,18 @@ feature-list=alternate-compose-menu,
 	save-will-advance,
 	select-without-confirm,
 	show-plain-text-internally,
-	tab-checks-recent
+	tab-checks-recent,
+	convert-dates-to-localtime,
+	no-combined-folder-display,
+	no-combined-subdirectory-display,
+	enable-incoming-folders-checking,
+	incoming-checking-includes-total,
+	no-quell-empty-directories,
+	no-separate-folder-and-directory-entries,
+	show-sort,
+	auto-unselect-after-apply,
+	offer-expunge-of-inbox,
+	prune-uses-yyyy-mm
 
 # Pine executes these keys upon startup (e.g. to view msg 13: i,j,1,3,CR,v)
 initial-keystroke-list=
@@ -318,7 +329,7 @@ mailcap-search-path=
 mimetype-search-path=
 
 # List of programs to open Internet URLs (e.g. http or ftp references).
-url-viewers=/usr/bin/lynx
+url-viewers=/home/bob/bin/xdg-open
 
 # The maximum number of non-stayopen remote connections that pine will use
 max-remote-connections=
@@ -339,6 +350,10 @@ newmail-window-width=
 # Syntax: optnl-label {optnl-imap-host-name}folder-path
 incoming-folders=RealPeople {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}realmail,
 	randomness {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}mailinglists.Randomness,
+	patreon {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}patreon,
+	tito {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}tito,
+	devopsdayslondon {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}devopsdayslondon,
+	kake {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}kake,
 	dd2019 {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}devopsdayslondon2019,
 	icsf-comm {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}mailinglists.icsf-committee,
 	weekly {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}weekly,
@@ -376,11 +391,11 @@ incoming-folders=RealPeople {mail.randomness.org.uk/ssl/novalidate-cert/user=bob
 	sparkly {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}sparkly,
 	voxpupuli {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}voxpupuli,
 	oyster {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}badpeople.oyster2,
-	dd2018 {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}devopsdayslondon2018,
-	dd2017 {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}devopsdayslondon2017,
-	patreon {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}patreon,
-	tito {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}tito,
-	devopsdayslondon {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}devopsdayslondon
+	property {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}property,
+	sent-mail {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}sent-mail,
+	beer {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}beer,
+	possiblespam {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}badpeople.possiblespam,
+	caughtspam {mail.randomness.org.uk/ssl/novalidate-cert/user=bob@randomness.org.uk}badpeople.caughtspam
 
 # List of directories where saved-message folders may be. First one is
 # the default for Saves. Example: Main {host1}mail/[], Desktop mail\[]
@@ -403,7 +418,7 @@ address-book=
 global-address-book=
 
 # Set by Pine; controls beginning-of-month sent-mail pruning.
-last-time-prune-questioned=120.10
+last-time-prune-questioned=125.7
 
 # Set by Pine; controls display of "new version" message.
 last-version-used=6.21
