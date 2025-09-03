@@ -3,3 +3,5 @@ Host *.vs.mythic-beasts.com
 #ProxyCommand ssh -e none bob@shell-01.hosting.randomness.org.uk -W %h:%p
 #AddKeysToAgent 36000
 IdentityFile ~/.ssh/id_ed25519.personal
+RemoteForward /home/bob/.opener.sock /Users/bob/.opener.sock
+
