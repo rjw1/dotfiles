@@ -1,63 +1,60 @@
 [user]
-    name = bob walker
-    email = bob@randomness.org.uk
-    signingkey = 94E63432B71CE3CB
+	name = bob walker
+	email = bob@randomness.org.uk
+	signingkey = 94E63432B71CE3CB
 [includeIf "gitdir:~/git/dxw/"]
-    path = .gitconfig-dxw
+	path = .gitconfig-dxw
 [push]
-    default = upstream
+	default = upstream
 	autoSetupRemote = true
 [alias]
-    st = status -s
-    cv = commit -v
-    co = checkout
-    cb = checkout -b 
-    br = branch
-    idiff = diff --cached
-    lg = log --pretty=oneline --topo-order --graph --abbrev-commit --decorate
-    ru = remote update
-    ; ! is both a subcommand, and from the topdir and not the cwd
-    ss = !git submodule status
-    nm = branch --no-merged
-    pn = push -u origin HEAD
-    smash = !git reset --hard origin/$(git default-origin)
-    autosmash = !git rebase -i origin/$(git default-origin) --autosquash
-    govpress-master-merge = !git checkout -B master origin/master && git pull --ff-only && git merge --no-ff --no-edit origin/develop
-    govpress-main-merge = !git checkout -B main origin/main && git pull --ff-only && git merge --no-ff --no-edit origin/develop
-    praise = blame
-    whose-line-is-it-anyway = blame
-    merge-request = mr create -d
-    gpr = !lab mr create origin develop
-    prg = !hub pull-request
-    pull-request = !hub pull-request
-    recommit = commit --amend --no-edit
-    save  = !git add . && git commit --no-verify -m \"WIP: auto save at $(date '+%Y%m%d %H:%M:%S')\"
-    default-branch = !git checkout $(git default-origin)
-    default-origin = !git remote show origin | awk '/HEAD branch/ {print $NF}'
-    default-new-branch = "!fn() { git checkout -b $1 $(git default-origin); }; fn" 
-    new = "!fn() { git checkout $(git default-origin); git pull; git default-new-branch $1; }; fn"
-	  delete-merged = !git branch --merged $(git default-origin) | egrep -v \"(^\\*|^  $(git default-origin)$)\" | xargs git branch --delete
-	  recent = --no-pager branch --sort=committerdate --format=\"%(committerdate:relative)%09%(refname:short)\"
-    px = log  --reverse -p -S
-    up = pull --autosquash
-	  last = log -1 -p --
-	  web-pr = !gh pr view --web
-
+	st = status -s
+	cv = commit -v
+	co = checkout
+	cb = checkout -b
+	br = branch
+	idiff = diff --cached
+	lg = log --pretty=oneline --topo-order --graph --abbrev-commit --decorate
+	ru = remote update
+	; ! is both a subcommand, and from the topdir and not the cwd
+	ss = !git submodule status
+	nm = branch --no-merged
+	pn = push -u origin HEAD
+	smash = !git reset --hard origin/$(git default-origin)
+	autosmash = !git rebase -i origin/$(git default-origin) --autosquash
+	govpress-master-merge = !git checkout -B master origin/master && git pull --ff-only && git merge --no-ff --no-edit origin/develop
+	govpress-main-merge = !git checkout -B main origin/main && git pull --ff-only && git merge --no-ff --no-edit origin/develop
+	praise = blame
+	whose-line-is-it-anyway = blame
+	merge-request = mr create -d
+	gpr = !lab mr create origin develop
+	prg = !hub pull-request
+	pull-request = !hub pull-request
+	recommit = commit --amend --no-edit
+	save = !git add . && git commit --no-verify -m \"WIP: auto save at $(date '+%Y%m%d %H:%M:%S')\"
+	default-branch = !git checkout $(git default-origin)
+	default-origin = !git remote show origin | awk '/HEAD branch/ {print $NF}'
+	default-new-branch = "!fn() { git checkout -b $1 $(git default-origin); }; fn"
+	new = "!fn() { git checkout $(git default-origin); git pull; git default-new-branch $1; }; fn"
+	delete-merged = !git branch --merged $(git default-origin) | egrep -v \"(^\\*|^  $(git default-origin)$)\" | xargs git branch --delete
+	recent = --no-pager branch --sort=committerdate --format=\"%(committerdate:relative)%09%(refname:short)\"
+	px = log --reverse -p -S
+	up = pull --autosquash
+	last = log -1 -p --
+	web-pr = !gh pr view --web
 [color]
-    diff = auto
-    branch = auto
-    status = auto
+	diff = auto
+	branch = auto
+	status = auto
 [include]
-    path = .git_email
+	path = .git_email
 [diff]
-   compactionHeuristic = true
-
+	compactionHeuristic = true
 [core]
-   excludesFile = /Users/bob/.gitignore
-
+	excludesFile = /Users/bob/.gitignore
 [commit]
-   gpgsign = true
-   verbose = true
+	gpgsign = true
+	verbose = true
 [init]
 	defaultBranch = main
 [credential]
@@ -69,14 +66,14 @@
 [pull]
 	ff = only
 [credential "https://github.com"]
-	helper = 
+	helper =
 	helper = !/opt/homebrew/bin/gh auth git-credential
 [credential "https://gist.github.com"]
-	helper = 
+	helper =
 	helper = !/opt/homebrew/bin/gh auth git-credential
 [interactive]
-        diffFilter = delta --color-only
+	diffFilter = delta --color-only
 [delta]
-        navigate = true
+	navigate = true
 [merge]
-        conflictStyle = zdiff3
+	conflictStyle = zdiff3
