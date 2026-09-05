@@ -22,12 +22,12 @@ vim.api.nvim_create_autocmd("BufWritePost", {
 
 -- Replicate RunTerraformDocsOnSave() from vimrc
 vim.api.nvim_create_autocmd("BufWritePost", {
-  pattern = "*",
+  pattern = { "*.tf" },
   callback = function(event)
     local current_dir = vim.fn.expand("%:p:h")
     if string.find(current_dir, "/Users/bob/git/dxw/terraform-dxw-dalmatian-infrastructure", 1, true) == 1 then
       vim.cmd("!echo 'Generating Terraform Docs...'")
-      vim.cmd("!terraform-docs .")
+      vim.cmd("!terraform-docs " .. vim.fn.fnameescape(current_dir))
       vim.cmd("!echo 'docs generated'")
     end
   end,
