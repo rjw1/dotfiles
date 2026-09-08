@@ -13,7 +13,7 @@ gpg==1.13.1
 idna==2.8
 internetarchive==1.8.5
 jsonpatch==1.24
-jsonpointer==2.0
+jsonpointer==2.4
 packaging==19.1
 pathspec==0.5.9
 pip-review==1.0
