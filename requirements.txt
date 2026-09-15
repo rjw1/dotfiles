@@ -27,7 +27,7 @@ smmap2==2.0.5
 total-ordering==0.1.0
 truffleHog==2.0.99
 truffleHogRegexes==0.0.7
-tubeup==0.0.20
+tubeup==0.0.35
 urllib3==2.5.0
 yamllint==1.17.0
 youtube-dlc==2020.10.26
