@@ -1,0 +1,6 @@
+Match host ha exec "~/bin/config-personal-key.sh"
+Host ha
+HostName 192.168.12.169
+User root
+#AddKeysToAgent 36000
+IdentityFile ~/.ssh/id_ed25519.personal

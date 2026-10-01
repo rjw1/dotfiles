@@ -1,4 +1,5 @@
 Include ~/git/rjw1/dotfiles/_ssh/ashbrook-config
+Include ~/git/rjw1/dotfiles/_ssh/ha-config
 Host *
 User bob
 ServerAliveInterval 60
