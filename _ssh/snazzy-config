@@ -13,8 +13,3 @@ Host ts-snazzy
 HostName 100.106.158.64
 #AddKeysToAgent 36000
 IdentityFile ~/.ssh/id_ed25519.personal
-
-Match host gitea.randomness.org.uk exec "~/bin/config-personal-key.sh"
-Host gitea.randomness.org.uk
-#AddKeysToAgent 36000
-IdentityFile ~/.ssh/id_ed25519.personal
