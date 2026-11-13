@@ -1,5 +1,6 @@
 Match host snazzy.local exec "~/bin/config-personal-key.sh"
 Host snazzy.local
+HostName 192.168.12.144
 #AddKeysToAgent 36000
 IdentityFile ~/.ssh/id_ed25519.personal
 
@@ -10,5 +11,10 @@ IdentityFile ~/.ssh/id_ed25519.personal
 Match host  ts-snazzy exec "~/bin/config-personal-key.sh"
 Host ts-snazzy
 HostName 100.106.158.64
+#AddKeysToAgent 36000
+IdentityFile ~/.ssh/id_ed25519.personal
+
+Match host gitea.randomness.org.uk exec "~/bin/config-personal-key.sh"
+Host gitea.randomness.org.uk
 #AddKeysToAgent 36000
 IdentityFile ~/.ssh/id_ed25519.personal

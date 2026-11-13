@@ -2,6 +2,7 @@ Include ~/git/rjw1/dotfiles/_ssh/ashbrook-config
 Include ~/git/rjw1/dotfiles/_ssh/ha-config
 Host *
 User bob
+IdentityFile ~/.ssh/id_ed25519.personal
 ServerAliveInterval 60
 IdentitiesOnly yes
 Include ~/git/rjw1/dotfiles/_ssh/bytemark-config

@@ -10,3 +10,8 @@ Match host 192.168.12.145 exec "~/bin/config-personal-key.sh"
 Host 192.168.12.145
 #AddKeysToAgent 36000
 IdentityFile ~/.ssh/id_ed25519.personal
+Match host gitea.randomness.org.uk exec "~/bin/config-personal-key.sh"
+Host gitea.randomness.org.uk
+Port 30009
+#AddKeysToAgent 36000
+IdentityFile ~/.ssh/id_ed25519.personal

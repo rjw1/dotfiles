@@ -1,3 +1,4 @@
+Match host *.hosting.randomness.org.uk exec "~/bin/config-personal-key.sh"
 Host *.hosting.randomness.org.uk
 #ProxyCommand ssh -e none %r@shell-01.hosting.randomness.org.uk -W %h:%p
 #AddKeysToAgent 36000
