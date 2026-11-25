@@ -8,8 +8,8 @@ class DefaultColor(object):
     # be cleared
     RESET = -1
 
-    USERNAME_FG = 250
-    USERNAME_BG = 240
+    USERNAME_FG = 226  # yellow
+    USERNAME_BG = 54  # dark purple
     USERNAME_ROOT_BG = 124
 
     HOSTNAME_FG = 250
