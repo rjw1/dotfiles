@@ -67,6 +67,9 @@ class DefaultColor(object):
     TF_ENV_BG = 99  # a mid-tone green
     TF_ENV_FG = 00
 
+    DALMATIAN_BG = 255  # white, for the spots
+    DALMATIAN_FG = 0
+
     BATTERY_NORMAL_BG = 22
     BATTERY_NORMAL_FG = 7
     BATTERY_LOW_BG = 196
