@@ -12,7 +12,7 @@ class Segment(BasicSegment):
             if len(version) <= 0:
                     return
             powerline.append(' \U0001F48E %s ' % version,
-                             powerline.theme.VIRTUAL_ENV_FG,
-                             powerline.theme.VIRTUAL_ENV_BG)
+                             powerline.theme.RBENV_FG,
+                             powerline.theme.RBENV_BG)
         except OSError:
             return

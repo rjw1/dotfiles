@@ -64,6 +64,9 @@ class DefaultColor(object):
     VIRTUAL_ENV_BG = 35  # a mid-tone green
     VIRTUAL_ENV_FG = 00
 
+    RBENV_BG = 160  # ruby red
+    RBENV_FG = 15
+
     TF_ENV_BG = 99  # a mid-tone green
     TF_ENV_FG = 00
 
