@@ -10,7 +10,7 @@ class Segment(BasicSegment):
             version = p1.communicate()[0].decode("utf-8").rstrip()
             if len(version) <= 0:
                     return
-            powerline.append(' %s ' % version,
+            powerline.append(' \U0001F30D %s ' % version,
                              powerline.theme.TF_ENV_FG,
                              powerline.theme.TF_ENV_BG)
         except OSError:
