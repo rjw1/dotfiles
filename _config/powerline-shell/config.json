@@ -4,17 +4,19 @@
     "~/git/rjw1/dotfiles/powerline-shell/segments/rbenv.py",
     "~/git/rjw1/dotfiles/powerline-shell/segments/tfenv.py",
     "~/git/rjw1/dotfiles/powerline-shell/segments/dalmatian.py",
+    "~/git/rjw1/dotfiles/powerline-shell/segments/newline.py",
+    "~/git/rjw1/dotfiles/powerline-shell/segments/git.py",
+    "~/git/rjw1/dotfiles/powerline-shell/segments/newline.py",
     "username",
     "hostname",
     "ssh",
     "cwd",
-    "git",
     "jobs",
     {
       "type": "stdout",
       "command": ["echo", "☃︎"]
     },
-    "newline",
+    "~/git/rjw1/dotfiles/powerline-shell/segments/newline.py",
     "root"
   ],
   "mode": "flat",
