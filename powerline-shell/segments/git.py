@@ -6,5 +6,5 @@ class Segment(GitSegment):
         self.join()
         if not self.stats:
             return
-        self.branch = '\U0001F500 ' + self.branch
+        self.branch = ' ' + self.branch
         super(Segment, self).add_to_powerline()
