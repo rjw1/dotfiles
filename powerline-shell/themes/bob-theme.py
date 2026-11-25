@@ -67,6 +67,9 @@ class DefaultColor(object):
     RBENV_BG = 160  # ruby red
     RBENV_FG = 15
 
+    SNOWMAN_BG = 16  # black
+    SNOWMAN_FG = 231  # white
+
     TF_ENV_BG = 99  # a mid-tone green
     TF_ENV_FG = 00
 
